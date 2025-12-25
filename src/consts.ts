@@ -1,13 +1,15 @@
 // Place any global data in this file.
 // You can import this data from anywhere in your site by using the `import` keyword.
 
-export const SITE_TITLE = "Astro Blog";
+export const SITE_TITLE = "T2Del";
 export const SITE_DESCRIPTION = "Welcome to my website!";
 
 /**
  * Site deployment and build configuration
  */
 export const config = {
+  SITE_TITLE : SITE_TITLE,
+  SITE_DESCRIPTION : SITE_DESCRIPTION,
   /** Site's deploy URL - must start with https:// or http:// */
   url: "https://www.t2del.com/",
   /** Base path for deployment (e.g. "/blog" for GitHub Pages) */
